@@ -1,0 +1,119 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:    http://example.com/twenty-Seventeen-child/
+ Description:  Twenty Seventeen Child Theme
+ Author:       Nitesh Shrestha
+ Author URI:   http://be.net/creativeshrestha
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-child
+*/
+
+@import url("grid.css");
+
+/* global */
+
+
+/*header*/
+
+.site-header {
+    background: #231f20;
+}
+
+.site-navigation-fixed.navigation-top {
+    position: relative;
+    background: #231f20;
+    border: 0;
+    border-bottom: 4px solid #e0023d;
+    text-transform: uppercase;
+}
+
+.site-navigation-fixed.navigation-top #top-menu {
+    text-align: center;
+}
+
+.site-navigation-fixed.navigation-top #top-menu a {
+    color: #727272;
+}
+
+.site-navigation-fixed.navigation-top #top-menu .current-menu-item a {
+    color: white;
+}
+
+.admin-bar .site-navigation-fixed.navigation-top {
+    top: 32px;
+    text-transform: uppercase;
+}
+
+
+/*main content */
+
+.main-content {
+    padding: 40px 0;
+}
+
+.left-column p {
+    text-align: right;
+    color: #585858;
+}
+
+
+/* footer */
+
+.footer-top {
+    background: #717074;
+}
+
+.site-footer h2 {
+    color: white;
+}
+
+.footer-about {
+    color: white;
+}
+
+.footer-address {
+    color: white;
+}
+
+.footer-address p {
+    margin: 0;
+}
+
+.footer-quicklinks {
+    color: white;
+}
+
+.footer-quicklinks li a span {
+    color: white;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    height: 25px;
+    position: relative !important;
+}
+
+.social-navigation a {
+    width: 100%;
+    background: transparent !important;
+    height: 30px;
+    text-align: left;
+}
+
+.social-navigation a .icon {
+    display: none;
+}
+
+.footer-bottom {
+    background: #e0023d;
+}
+
+.footer-bottom p {
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+}

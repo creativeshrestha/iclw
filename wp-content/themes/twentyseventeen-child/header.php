@@ -27,8 +27,13 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
+	<div class="wrap">
+		<div class="logo">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="">
+		</div>
+	</div>
 
-		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
+		<?php //get_template_part( 'template-parts/header/header', 'image' ); ?>
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
